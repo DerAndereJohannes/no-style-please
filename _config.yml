@@ -1,7 +1,7 @@
 title: OCEL Feature Extraction Thesis # name of the site
 author: Johannes Herforth # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
-url: https://master-thesis.node.lu # root address of the site
+email: johannes.herforth@rwth-aachen.de # email of site's author
+url: https://thesis.node.lu # root address of the site
 baseurl: "" # "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   Small blog to keep track of the progress of my master thesis on feature extraction on the OCEL data type.
