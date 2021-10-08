@@ -6,9 +6,6 @@ entries:
     entries:
       - title: Master Thesis based on Process and Data Science
       - title: Feature extraction on Object-Centric Event Logs (OCEL)
-      - title: "Learn more about <a href='http://ocel-standard.org/'>OCEL</>"
-      - title: Thesis GitHub Repository
-        url: https://github.com/deranderejohannes/ocel-features/
 
   - title: "<strong>ALL POSTS</strong>"
     post_list:
@@ -17,6 +14,12 @@ entries:
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: "<strong>RSS</strong>"
-    url: feed.xml
+  - title: "<strong>RELATED LINKS</strong>"
+    entries:
+      - title: Thesis Github Repository
+        url: https://github.com/deranderejohannes/ocel-features/
+      - title: Learn more about OCEL
+        url: http://ocel-standard.org/
+      - title: RSS feed
+        url: feed.xml
 
