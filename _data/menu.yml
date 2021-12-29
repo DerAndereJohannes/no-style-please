@@ -2,24 +2,9 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: "<strong>INFO</strong>"
-    entries:
-      - title: Master Thesis based on Process and Data Science
-      - title: Feature extraction on Object-Centric Event Logs (OCEL)
-
-  - title: "<strong>ALL POSTS</strong>"
-    post_list:
+  - post_list:
       limit: 5
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
-
-  - title: "<strong>RELATED LINKS</strong>"
-    entries:
-      - title: Thesis Github Repository
-        url: https://github.com/deranderejohannes/ocel-features/
-      - title: Learn more about OCEL
-        url: http://ocel-standard.org/
-      - title: RSS feed
-        url: feed.xml
 

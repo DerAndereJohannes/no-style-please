@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<header>
+  <h1 style="text-align: center;">{{ site.title }}</h1>
+  <img src="/me.jpg" alt="" style="width: 300px;">
+  {%-if site.theme_config.show_description-%}
+    <p>{{ site.description }}</p>
+  {%-endif-%}
+</header>
+
+{%-include home-main.html-%}
+
+{{ content }}
