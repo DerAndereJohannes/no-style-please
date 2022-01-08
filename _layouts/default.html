@@ -10,12 +10,16 @@ Please also go checkout the awesome project for yourselves on GitHub: https://gi
     <main class="page-content" aria-label="Content">
       <div class="w">
         {{ content }}
+        {%-include links.html-%}
       </div>
+      
     </main>
 
     {%-if site.goat_counter and jekyll.environment == "production"-%}
       {%-include goat_counter.html-%}
     {%-endif-%}
+
+    
 
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}
