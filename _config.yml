@@ -5,7 +5,7 @@ url: https://node.lu/ # root address of the site
 baseurl: "" # "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   I'm a computer scientist born in Germany and raised in Luxembourg. I have studied in the UK and Germany from 2015 until present. I
-  strive to keep my work as minimal and simple in order to not waste anyones time.
+  strive to keep my work as minimal and simple as possible in order to save time.
 
 permalink: /:slug.html
 
