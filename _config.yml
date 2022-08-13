@@ -1,7 +1,7 @@
 title: Johannes Herforth's Homepage # name of the site
 author: Johannes Herforth # name of site's author
-email: root@node.lu # email of site's author
-url: https://node.lu/ # root address of the site
+email: hello@herforth.xyz # email of site's author
+url: https://herforth.xyz # root address of the site
 baseurl: "" # "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   I'm a computer scientist born in Germany and raised in Luxembourg. I have studied in the UK and Germany from 2015 until present. I
