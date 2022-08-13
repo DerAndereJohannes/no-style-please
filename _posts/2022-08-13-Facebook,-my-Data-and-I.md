@@ -11,7 +11,7 @@ From all the news, I looked at the social media websites that I had on my phone 
 - **LinkedIn**: I decided to keep my account as it is currently a useful tool to me for when I fully graduate from University later this year. App was uninstalled.
 - **Twitter**: I had 2 accounts in total I had not touched in years. Nitter[^5] is a decent enough twitter viewer where no account is required. Data downloaded with no trouble. 2 Accounts deleted and app uninstalled.
 - **Snapchat**: I had not used this in 4 years. The app was just sitting there. Data downloaded with trouble: when downloading the data, it will just include website links to your content and not the data itself. You **MUST** go through each link and download them individually yourself to really have all of your data. Malicious compliance really, but I did manage to get all my data so OK. Account deleted and app uninstalled.
-- **Instagram**: I actually loved using Facebook with the open source Barninsta[^6] interface. It was actually enjoyable to use Instagram. However, Instagram started flagging my account and locking me out due to "suspicious behavior" which I guess is code word for "Not seeing any ads". Website downloaded without issue (the account deletion screen uses the very old Instagram which is a nice touch). Account deleted and app uninstalled.
+- **Instagram**: I loved using Instagram with the open source Barninsta[^6] interface. It was actually enjoyable to use Instagram with all the additional features and removal of many annoying ones. However, Instagram started flagging my account and locking me out due to "suspicious behavior" which I guess is code word for "Not seeing any ads". Website downloaded without issue (the account deletion screen uses the very old Instagram which is a nice touch). Account deleted and app uninstalled.
 - **Discord**: I still actively rely on Discord to speak with some good friends. As much as I would love to remove it, I have removed any trace of myself and am only in channels where relevant. App uninstalled.
 - **Facebook**: The data request sends you your data partially as encrypted files with no possibility to access them.
 
@@ -23,14 +23,14 @@ Both of these articles basically should allow the data subject (me in this case)
 
 To prove that I really tried my absolute best to figure out what is going on here, I want to take you all on an adventure of the download attempts I had over the past week or so. Buckle up!
 
-## The Quest for my Facebook Data!
+# The Quest for my Facebook Data!
 I started my adventure of requesting downloads from Facebook back on the 29th July. Naive me looked at the download request page thinking how intuitive it looks, and I liked how you could really customize what sort of data you would like to download about yourself. The download format can be done in a human-readable way using a small HTML frontend and the machine-readable method of JSON can also be used. Neat! I clicked download and moved to doing something actually important. I woke up the next day excited to read an email that the process had completed and that I can download the data from their page. Awesome! I go ahead and bulk download all the zip files that contain my data. Upon first inspection, the files looked fine with everything neatly laid out into different folders. 
 
 Suddenly, upon opening zip number 3 I was greeted with an odd looking file that did not match the style of the others. What is this? A .zip.enc file? Never heard of it! After googling for this file type, I came across the fileinfo page[^8] containing information about this file type. From the information on this page, it seems that it is a file type only found in the "Download Your Information" feature of Facebook and occurs if the data was not processed properly during the data retrieval. In other words "Mistakenly encrypted". To give the benefit of the doubt, I decided to just shrug and request my information again hoping that this was just true accident. You wouldn't believe what I managed to find the exact same problem. After this occurred again, I tried something that I never thought I would do ever in my life. I tried to find and contact Facebook support. 
 
 Now, I am going to say this as directly as possible. Facebook support does not exist, and I am honestly not sure if it ever has. There is no phone number, no email address, no live chat. The only options that a normal user gets is a not so useful FAQ page and the ability to give feedback by the "Help us improve Facebook" and "Something went wrong" options. Oh boy, yes. Something did go wrong, please how can you help me? The option leads you to fill out a form with category, details, and you can even add a screenshot! Well, this is no help. Since it was my only option though, I did start off with being professional and giving the exact steps that I was doing and that there were problems with the output files. I also continued requesting downloads... 7 in total to be exact. No response from any up until now. Let's dig into my adventure even more!
 
-### Timeline of Download attempts 
+# Timeline of Download attempts 
 - **2022-07-28:** I was a happy man
 - **2022-07-29:** All Time - High Quality - Everything - HTML
 - **2022-07-30:** All Time - High Quality - Everything - HTML
@@ -45,7 +45,7 @@ Now, I am going to say this as directly as possible. Facebook support does not e
 - **2022-08-09:** All Time - High Quality - Mixed - HTML
     - Here I started to look for the problem categories
 
-### A Worrying Surprise
+# A Worrying Surprise
 
 | Date  | Number of Zips | Total Size (GB)  |
 | ----- |:--------------:|:----------------:|
@@ -56,14 +56,14 @@ Now, I am going to say this as directly as possible. Facebook support does not e
 
 As mentioned in my timeline, on the 3rd of August I decided to also keep track of additional metadata of the files downloaded from the "Information Retrieval Tool". I was surprised to find how different each download was in terms of size. Some downloads had to be contained in 5 while others only had to take up 4. Each had its own unique total file size. I am uncertain if this is because Facebook fails to retrieve my information every time or if the encrypted files take up that much more space and fail differently every time. I am not sure. Though Can I be certain if I really am getting all my information even if it is correct?
 
-### A Short Side Quest to View the Individual Files
+# A Short Side Quest to View the Individual Files
 On the 9th of August I decided to try and download each category they list individually to see where the .zip.enc files are coming from. 
 
 While going through all the categories, I found an interesting discovery when getting the "Posts" category after wondering why the zip size was only 367 MB. Therefore, please take this word of warning into account: Under the "What's included?" section, they mention that "Your photos" are included in this section. They are not. Well... The photos you posted in your posts are included, but not the photos that you uploaded to an album. You might be thinking "well... duh... you downloaded the category specifically named posts" and I agree with you. However, the help text specifically states "Photos you've uploaded and shared". This wording would have me believe that the photos that I added to albums are also included in this upload. In order to download your albums, you have to go to them manually and click the download button for each one. This sounds like an easy fix, but imagine if you made 1000s of albums for all kinds of events which I know many people do. In addition, honestly why not include all albums as part of the download? Facebook obviously doesn't care about bandwidth or storage issues as they will let me recreate my broken information requests even though the tool does not work.
 
 After going through each category each with surprising little data content, I could not find any encrypted files until I stumbled across the "messages" category. Total size: 8.168 GB. Wow, that's a lot! It was this section that was taking up all the space! Sure enough, the .zip.enc files were to be found here. After finding out about this, I was thinking maybe I set up some end-to-end encryption setting on Facebook. Alas, Facebook does not have such a setting. At least not yet. They announced two days ago that they are testing it out[^9]. I wonder if they would start using this excuse in the future when their retrieval tool still doesn't work and just say "But then it must be end-to-end encrypted!".
 
-### A Short .zip.enc Tangent
+# A Short .zip.enc Tangent
 For anyone who is interested, I decided to check up on the description that fileinfo [^8] gave with respect to the .zip.enc file actually being encrypted data and if I could trust that assertion. 
 
 What I first wanted to see if the file wasn't just a regular zip file. This would have been very strange, however it was worth a try. Attempting to open the file in xarchiver just spat out an error message. I decided to take a closer look and see if the starting bytes (i.e. magic number) of the file matched anything else that it could be. The zip format has its magic number stored in little endian format as `0x04034b50`. If we take a look at the zip.enc file using some simple commands (where the Xs constitute my Facebook ID):
@@ -90,7 +90,7 @@ The other test I wanted to describe a bit more was the Chi-squared test. In shor
 Since I am pretty sure that Facebook would not waste its bandwidth and storage facilities to host large random noise files, I think I can be pretty confident that these are just encrypted files that contain my information (Imagine if they included someone else's information?..).
 
 
-## What to make out of it?
+# What to make out of it?
 Facebook does not care about the GDPR. Facebook also does not want to fix the problem. The fact that the experience of requesting your own data was the worst on the largest social media platform compared to its competitors and even its own subsidiaries is completely unacceptable. I was expecting to be done with this task after one day of bulk downloading everything from every service. In the end, I find yet another example of seemingly gross malpractice with no way of being able to get help on the issue. You might not want to delete your Facebook account yet, but do realize that posts from various form websites about this issue have existed for at least 2 years[^10] and the situation seems to have only gotten worse. In addition, the fact that photos from your albums are not included at all with the tool, and they have to be manually downloaded elsewhere is unexpected and not fair to its users. I am still unsure whether I should just end up ignoring the encrypted message files and delete my account anyway. What is stopping me is that I do not know which messages these even are, and it is difficult to find out due to the total size of over 8 GB going all the way back to 2008.
 
 If you are also interested in seeing if some or all of your messages are in this strange .zip.enc format, go ahead and check out the [Download Your Information](https://www.facebook.com/dyi/) page on Facebook and select the date range to be "All time". If you happen to also have .zip.enc files after a few times of trying, are an EU citizen and think this is violating your rights, I urge you to take 15 minutes of your time to submit a complaint to your National Data Protection Commission. You can find a [full list of these here](https://edpb.europa.eu/about-edpb/about-edpb/members_en).
