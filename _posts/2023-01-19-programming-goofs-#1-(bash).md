@@ -67,7 +67,7 @@ Luckily, due to my confusion I held down CTRL+C to cancel the command as soon as
 ## What Went Wrong? (Why did it Happen?)
 The culprit was the line defining the **FILE_LIST** variable. As defined, it finds all the files in the directories given to it through **OTHER_FOLDERS**. When the **OTHER_FOLDER** variable contains actual folder paths, there is no problem (yay!). But can you guess what would happen if I accidentally executed `$ bscan merge` when there were no other folders to merge? 
 
-That's right! With the **OTHER_FOLDERS** variable empty, we result to using the default behaviour of the find command. Unfortunately for this case, if the find receives no folder to check, it checks the entire current directory along with subfolders. Due to this, my entire "completed_scans" folder was part of the moving plan! The sorted alphabetical list of "completed" files was iterated through and gracefully displaced into the main folder.
+That's right! With the **OTHER_FOLDERS** variable empty, we result to using the default behaviour of the find command. Unfortunately for this case, if the find receives no folder to check, it checks the entire current directory along with subfolders. Due to this, my entire "completed_scans" directory was part of the moving plan! In other words, the sorted alphabetical list of "completed" files was iterated through and gracefully displaced into the scanning session folder. To top it all off, if the command had fully executed, it would have also deleted all the organization I had so far by deleting the folder structure within the completed scans directory. Phew. 
 
 
 ## What Did We Learn?
