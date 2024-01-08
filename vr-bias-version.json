@@ -1,4 +1,6 @@
 {
-    "manager": "0.1.0",
-    "experiment": "0.1.0"
+    "manager_version": "0.1.0",
+    "manager_version_changelog": "Initial build",
+    "experiment": "0.10-20240105T161943",
+    "experiment_version_changelog": "Added ability to change clothes."
 }
