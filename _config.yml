@@ -4,8 +4,8 @@ email: hello@herforth.xyz # email of site's author
 url: https://herforth.xyz # root address of the site
 baseurl: "" # "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  I'm a computer scientist born in Germany and raised in Luxembourg. I have studied in the UK and Germany from 2015 until present. I
-  strive to keep my work as minimal and simple as possible in order to save time.
+  I'm a computer scientist born in Germany and raised in Luxembourg. I
+  strive to keep my work simple to have more time to explore and enjoy life.
 
 permalink: /:slug.html
 
@@ -18,7 +18,7 @@ theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description in home page
+  show_description: false # show blog description in home page
 
 sass:
   style: :compressed
