@@ -1,0 +1,15 @@
+
+{% assign limit = include.limit | default: 5 %}
+
+<ul>
+    {% for teaching in site.data.teachings limit: limit %}
+    <li>
+        <strong>{{ teaching.course }}</strong> at {{ teaching.institute }} <br/> <i>{{ teaching.role }} ({{ teaching.semester }})</i> <br/>
+    </li>
+    {% endfor %}
+
+    {% if site.data.teachings.size >= limit %}
+        <li><a href="/teaching/">See archive...</a></li>
+    {% endif %}
+</ul>
+
