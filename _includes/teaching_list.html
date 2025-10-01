@@ -4,7 +4,7 @@
 <ul>
     {% for teaching in site.data.teachings limit: limit %}
     <li>
-        <strong>{{ teaching.course }}</strong> at {{ teaching.institute }} <br/> <i>{{ teaching.role }} ({{ teaching.semester }})</i> <br/>
+        <strong>{{ teaching.course }}</strong> <br/> {{ teaching.institute }} <br/> <i>{{ teaching.role }} ({{ teaching.semester }})</i> <br/>
     </li>
     {% endfor %}
 
