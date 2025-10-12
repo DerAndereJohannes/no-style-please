@@ -1,0 +1,16 @@
+---
+layout: post
+category: general
+---
+
+Usually, I have an indifferent reaction to when I see the use of AI online. When I do see videos using AI in a distasteful way, I often feel more disappointed than any other feeling. At least that is what I thought.
+
+Two days ago, I found out that I can have a different reaction to these types of posts. 81Dojo is an accessible website where you can play Shogi (Japanese Chess) online with players from all around the world. Given its seniority in the space, it has captured the audience of the majority of international and many Japanese players looking to have a quick game online. I have had many fond memories of playing with the international shogi community, making friends and learning how to play using the YouTube series of the owner of 81Dojo, HIDETCHI.
+
+[HIDETCHI's YouTube channel](https://www.youtube.com/@HIDETCHI){:target="_blank"} has been inactive since 2014, so it seemed that the channel would remain an archive to his successful path at getting the international community involved. However, a [new video](https://www.youtube.com/watch?v=bbUz4KbEQhs){:target="_blank"} was uploaded two days ago celebrating the 15th birthday of the website 81Dojo (Happy birthday by the way!), sponsored by the Japan Shogi Association. One would think that the video would take a look back at highlighted moments on the website or clips from the growing shogi communities outside of Japan. This can be at least partially attributed to all the work that HIDETCHI put in.
+
+Unfortunately, the video consisted of poorly AI-generated humans playing shogi with each other over presenting basic features of the platform. Watching the video really did something with me. I just sat there, speechless. All the hard work that has been put into the platform and its reputation over all those years have been rewarded with such a soulless, nothing saying promotional video. It goes even as far as to show "shogi boards" that do not resemble them at all. Circular, unrecognizable pieces, and incorrect boards are all to be seen in the video. Don't get me started on the interactions between the "humans".
+
+I only just now had the courage to open the video again and to read through the comments, which were very split. The majority welcomed HIDETCHI back to YouTube and are hoping for him to resume making new videos. The others had a similar reaction to me, completely perplexed by the quality of the output and the use of AI in this way. One comment at least made me happy, where a user from the Colombian shogi association offered to help with clips for the next time. The community is really great.
+
+I don't know who was pushing for this video to be released. I do not accept budget concerns as an excuse, as communities from all around the world would have been more than happy to send in their clips for free. The fact that the video was even sponsored by the Japan Shogi Association strengthens this argument. It just feels like the whole thing was unplanned and done last minute for any reason. It just made me seemingly react in a more emotional and caring way. Do note that I don't want to blame anyone for the result. I just wanted to write this to remind myself that this moment happened.
