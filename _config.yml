@@ -1,7 +1,8 @@
 title: Johannes Herforth's Homepage # name of the site
 author: Johannes Herforth # name of site's author
-email: hello@herforth.xyz # email of site's author
-url: https://herforth.xyz # root address of the site
+email: hello@herforth.net # email of site's author
+url: https://herforth.net # root address of the site
+domain: herforth.net
 baseurl: "" # "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   I'm a computer scientist born in Germany and raised in Luxembourg. I
